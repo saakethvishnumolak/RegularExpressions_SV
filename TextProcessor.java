@@ -1,7 +1,18 @@
+package processor;
+
 import java.io.*;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+/**
+ * This java program searches text files. The program excepts two inputs: the file and a regex command. The program searches the file with the regex command passed and print each occurence and the number of occurences.
+ * @author Saaki Vishnumolakala
+ * @version 1.0
+ * Compiler Project 3
+ * CS322 - Compiler Construction
+ * Spring 2023
+ */
 
 public class TextProcessor {
 
